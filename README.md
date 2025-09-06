@@ -51,7 +51,7 @@ logger.bind(request_id="abc").error("Payment failed")
 ### Console Output (json_format=False)
 
 ```console
-ERROR    | main:<module>:9 - Payment failed - {'request_id': 'abc'}
+2025-09-07T01:35:45.123+09:00 | ERROR    | main:<module>:9 - Payment failed - {'request_id': 'abc'}
 ```
 
 ## License
