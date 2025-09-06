@@ -75,8 +75,8 @@ def set_logger(json_format: bool = True):
         logger.add(
             sys.stderr,
             format="<green>{time:YYYY-MM-DD HH:mm:ss.SSSZ}</green>"
-            "<level>{level: <8}</level>"
-            " | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan>"
+            " | <level>{level: <8}</level>"
+            " | <cyan>{file.name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan>"
             " - <level>{message}</level>"
             " - <level>{extra}</level>",
             level=logging.NOTSET,
